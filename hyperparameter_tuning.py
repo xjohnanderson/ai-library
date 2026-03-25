@@ -1,5 +1,8 @@
 # hyperparameter_tuning.py
-# This script implements manual hyperparameter tuning for a simple linear regression model trained via gradient descent. It generates synthetic data, performs a train-validation-test split, conducts a grid search over learning rates as the hyperparameter, trains the model for each candidate value, evaluates mean squared error on the validation set to select the best learning rate, and outputs the selected hyperparameter along with final test performance. The implementation uses only NumPy for minimal dependencies.
+# This script implements manual hyperparameter tuning for a simple linear regression model trained via gradient descent. 
+#It generates synthetic data, performs a train-validation-test split, conducts a grid search over learning rates as the hyperparameter, 
+#trains the model for each candidate value, evaluates mean squared error on the validation set to select the best learning rate, and 
+#outputs the selected hyperparameter along with final test performance. The implementation uses only NumPy for minimal dependencies.
 
 import numpy as np
 
